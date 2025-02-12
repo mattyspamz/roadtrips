@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("background.png") no-repeat fixed top right; 
+}
+#container{
+width: 800px;
+	margin: 0 auto;
+}
+.left{
+	width:380px;
+	height:200px;
+	background-color:rgba(255,255,255,0.50);
+	border-radius: 25px;
+	float: left;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+	visibility: hidden
+	
+}
+
+.right{
+	width:380px;
+	height:200px;
+	background-color:rgba(255,255,255,0.50);
+	border-radius: 25px;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 30px 30px 30px 30px;
+	border: solid 3px
+}
+footer{
+	background-color:rgba(62,152,179,0.50);
+	clear:both;
+}
+header > h1{
+	text-align: center; 
+	color: #fff;
+}
+#container .right{
+	background-color:rgba(62,152,179,0.50)
+}
+	
+	
